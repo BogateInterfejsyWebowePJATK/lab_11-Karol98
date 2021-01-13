@@ -52,7 +52,7 @@ export class RandomListWithExt extends React.Component {
                                 <button onClick={this.remove.bind(this,index)}>usuń</button>
                                 <button onClick={this.toString.bind(this,index,2)}>Binarny</button>
                                 <button onClick={this.toString.bind(this,index,8)}>Ósemkowy</button>
-                                <button onClick={this.toString.bind(this,index,16)}>Szesnastky</button>
+                                <button onClick={this.toString.bind(this,index,16)}>Szesnastkowy</button>
                                 </li>)
                         )}
                     </ul>

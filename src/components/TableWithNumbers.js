@@ -1,5 +1,6 @@
 
 import React from 'react';
+import './TableWithNumbers.scss';
 
 export default function TableWithNumbers(props)  {
         return (
