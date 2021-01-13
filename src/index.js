@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import {Photo} from './components/zad4/Photo.js'
 import reportWebVitals from './reportWebVitals';
-import {RandomListWithExt} from "./components/RandomListWithExt";
-import TableWithNumbers from "./components/TableWithNumbers";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <RandomListWithExt />
+    <Photo />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,69 @@
+input[type=image] {
+  width:50px;
+  height: 50px;
+
+}
+
+#delete {
+  background-color: red;
+  width: 10%;
+  position: relative;
+  left: 30%;
+  color:white;
+  font-family: "Arial Black";
+}
+
+header button {
+
+  top: 50px;
+}
+img {
+  margin:0;
+  padding: 0;
+  border: 3px solid black;
+}
+
+*{
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+sections {
+  width: 100%;
+}
+
+header {
+  position: relative;
+  left: 24%;
+  width: 50%;
+  text-align: center;
+  border: 10px solid black;
+}
+
+.star-widget {
+  padding: 20px 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#buttons {
+  width:100%;
+  text-align: center;
+}
+h4 {
+  font-size: 50px;
+  margin: 10px;
+  font-family: "Comic Sans MS";
+  color: black;
+}
+
+.foot {
+  padding: 5px;
+  margin: 20px;
+  width: 10%;
+  font-family: "Arial Black";
+  background-color: darkolivegreen;
+  font-size: 20px;
+  height: 10%;
+}
