@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {RandomListWithButton} from "./components/RandomListWithButton";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import {RandomListWithExt} from "./components/RandomListWithExt";
+import TableWithNumbers from "./components/TableWithNumbers";
 
 ReactDOM.render(
   <React.StrictMode>
-    <RandomListWithButton />
+    <RandomListWithExt />
   </React.StrictMode>,
   document.getElementById('root')
 );
